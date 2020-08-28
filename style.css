@@ -38,7 +38,7 @@ form{
 
 .searchBox{
   width:90%; 
-  margin:0px auto;
+  margin:0 auto;
 }
 
 #searchResults{
@@ -61,7 +61,7 @@ form{
 
 img {
   width:15%; 
-  margin: 4% 0%;
+  margin: 4% 0;
 }
 
 input[placeholder]{
