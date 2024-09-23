@@ -1,42 +1,32 @@
-
 <!DOCTYPE html>
 
 <html lang="en" >
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-
 
 <title>WikiPedia Viewer</title>
 
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" rel="stylesheet" />
 
 <link rel="stylesheet" href="style.css">
-
-
-
-
-
-
 
 </head>
   
 <body>
   <form>
-    <h1> WikiViewer</h1></legend>
-    <p><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png">
-    <p><input type="text" class="form-control" placeholder='Pick a topic. Any topic.'> 
- <br><br>
-    <p><a type="submit" value="I feel Lucky" class="btn " href="https://en.wikipedia.org/wiki/Special:Random">Feeling Lucky?</a>
-    <div id="searchResults"></div>
-</form>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="script.js"></script>  
+    <h1> WikiViewer</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png">
+    <input type="text" class="form-control" id="search-box" placeholder='Pick a topic. Any topic.'> 
 
+    <a type="submit" value="I feel Lucky" class="btn " href="https://en.wikipedia.org/wiki/Special:Random">Feeling Lucky?</a>
+    <div id="search-results"></div>
+</form>
+
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
+</html>
