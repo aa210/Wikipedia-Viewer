@@ -36,12 +36,12 @@ form{
   margin-right:2px;
 }
 
-.searchBox{
+.search-box {
   width:90%; 
-  margin:0 auto;
+  margin:10px auto;
 }
 
-#searchResults{
+#search-results{
   text-align:left;
 }
 
@@ -61,11 +61,14 @@ form{
 
 img {
   width:15%; 
-  margin: 4% 0;
+  margin: 4% 0%;
 }
 
-input[placeholder]{
-  text-align:center;}
+input{
+  text-align:center;
+  margin: 10px auto;
+  width: 80%;
+}
 
 h1{
   padding-bottom:1%;  
@@ -73,6 +76,3 @@ h1{
   font-family: 'Lobster', courier;
  
 }
-
-
-
